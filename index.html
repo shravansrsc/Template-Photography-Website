@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Photography Site</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        SHUTTER UP
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html" class = "active">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "blog.html">Blog</a></li>
+                        <li><a href = "contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <span class = "search-icon">
+                    <i class = "fas fa-search"></i>
+                </span>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "data:image/jpeg;base64,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" alt = "photographer img">
+                    </div>
+                    <h2>WELCOME TO SHUTTER UP</h2>
+                    <h3>Photography | Traveling</h3>
+                    <blockquote>
+                        "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever ... It remembers little things, long after you have forgotten everything."
+                        <span>-Aaron Siskind</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "#"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "#"><i class = "fab fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-one">
+            <div class = "container">
+                <div class = "sec-one-left">
+                    <!-- image here -->
+                    <img src="https://github.com/prabinmagar/photography-site/blob/master/images/photographer.png?raw=true">
+                    <div>
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Shutter up is represented by a dedicated and talented team of individuals with professional working experience in photography.</p>
+                        <a href = "#" class = "btn">view all</a>
+                    </div>
+                </div>
+
+                <div class = "sec-one-right">
+                    <div class = "work-content">
+                        <h3>AMAZING TEAM WORK WITH PROFESSIONAL PHOTOGRAPHER</h3>
+                        <p>Shutter Up is represented by a dedicated and talented team of individuals with professional working experience in photography.</p>
+                        <a href = "#" class = "btn">view all</a>
+                    </div>
+                    <div class = "work-imgs">
+                        <div class = "work-img-1">
+                            <!--image here-->
+                            <img src="https://github.com/prabinmagar/photography-site/blob/master/images/porject-1.jpg?raw=true">
+                        </div>
+                        <div class = "work-img-2">
+                            <!-- image here -->
+                            <img src="https://github.com/prabinmagar/photography-site/blob/master/images/porject-2.jpg?raw=true">                        </div>
+                    </div>
+                    <h3> "Taking an image, freezing a moment, reveals how rich reality truly is."</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class = "section-two">
+            <div class = "container">
+                <h2>FOLLOW ON INSTAGRAM</h2>
+                <span>@shutterup_photography</span>
+                <div class = "insta-imgs">
+                    <div>
+                        <img src = "https://github.com/prabinmagar/photography-site/blob/master/images/insta-1.jpg?raw=true">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src = "https://github.com/prabinmagar/photography-site/blob/master/images/insta-2.jpg?raw=true">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src = "https://github.com/prabinmagar/photography-site/blob/master/images/insta-3.jpg?raw=true">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src = "https://github.com/prabinmagar/photography-site/blob/master/images/insta-4.jpg?raw=true">
+                        <div class = "icon-overlay flex">
+                            <i class = "fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>SHUTTER UP</h2>
+                    <p>Shutter up is a firm believer in capturing the raw and real of our clients and we strive to capture you as authentically as we can
+
+                        capturing the unseen, messy, and perfectly imperfect photos that you never even knew you wanted.And teaching the best of photography skills and tips</p>
+                </div>
+                <div>
+                    <h3>Free Subscription!</h3>
+                    <p>Get awesome tips and expert guidance.</p>
+
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "email" id = "email" placeholder="Email Address">
+                        <button type = "submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright SHUTTER UP . SIMPLE AND NICE TEMPALTE</p>
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
